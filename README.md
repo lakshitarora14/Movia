@@ -2,8 +2,9 @@
 A responsive online database of information related to films, television series, made using react.js, tailwind, and TMDB custom JSON APIs
 
 Live Project : https://movia.vercel.app/
-![movia vercel app-Large-Screen-1280x800 (1)](https://user-images.githubusercontent.com/44324506/157182241-0fa49683-99a4-4b6c-a2a9-55b616fae17a.png)
-![movia vercel app-Laptop-1-1440x900](https://user-images.githubusercontent.com/44324506/157182246-07b2c5d8-5fbf-4d21-8e3c-a26f992325c4.png)
+<img width="1800" alt="image" src="https://user-images.githubusercontent.com/44324506/157182689-80ff4b15-5762-4875-a5d8-32902f2fc6e9.png">
+<img width="450" alt="Screenshot 2022-03-08 at 12 22 00 PM" src="https://user-images.githubusercontent.com/44324506/157183319-1375dbe4-12b5-4411-8a47-2ae7071385e9.png">
+
 
 
 This app is fully responsive website which uses tmdb database to fetch results, made using react.js, and tailwiwnd css. The layout changes as the screen sizes increases from 1 column grid in movile device to 2 column grid on tablets, then to 3 column grid on desktops. The layout changes from grid to flex if we encounter very big screens like 4k display.
@@ -40,5 +41,7 @@ yarn dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 #### Screenshots
+
+<img width="1314" alt="image" src="https://user-images.githubusercontent.com/44324506/157182826-73b26c2c-6ab8-464b-987f-b3eed9472a39.png">
 
 

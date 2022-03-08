@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+## Movie
+A responsive online database of information related to films, television series, made using react.js, tailwind, and TMDB custom JSON APIs
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live Project : https://movia.vercel.app/
+![movia vercel app-Large-Screen-1280x800 (1)](https://user-images.githubusercontent.com/44324506/157182241-0fa49683-99a4-4b6c-a2a9-55b616fae17a.png)
+![movia vercel app-Laptop-1-1440x900](https://user-images.githubusercontent.com/44324506/157182246-07b2c5d8-5fbf-4d21-8e3c-a26f992325c4.png)
 
-## Available Scripts
 
-In the project directory, you can run:
+This app is fully responsive website which uses tmdb database to fetch results, made using react.js, and tailwiwnd css. The layout changes as the screen sizes increases from 1 column grid in movile device to 2 column grid on tablets, then to 3 column grid on desktops. The layout changes from grid to flex if we encounter very big screens like 4k display.
 
-### `npm start`
+#### Installation and Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clone the application
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```
+git clone https://github.com/lakshitarora14/Movia.git
 
-### `npm test`
+```
+2. Then install the dependencies
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+npm install or yarn 
+```
+3. Create a local environment file by creating a file as .env.local and have these inside as keys
 
-### `npm run build`
+```
+REACT_APP_API_KEY = xxxxxxxxxxxxx_xxxxxx
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+This API key can be obtained by creating an account on https://developers.themoviedb.org/3/getting-started/introduction
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. Run the development server:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+npm run dev
+# or
+yarn dev
+```
 
-### `npm run eject`
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#### Screenshots
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

@@ -7,9 +7,11 @@ Live Project : https://movia.vercel.app/
 <img width="900" alt="Screenshot 2022-03-08 at 12 28 03 PM" src="https://user-images.githubusercontent.com/44324506/157183849-2590c1d7-da18-4aca-a4e6-f9c453fa6969.png">
 <img width="900" alt="Screenshot 2022-03-08 at 12 28 14 PM" src="https://user-images.githubusercontent.com/44324506/157183855-042b7c11-4301-4e52-a86c-e2366f2963a6.png">
 <img width="899" alt="Screenshot 2022-03-08 at 12 31 48 PM" src="https://user-images.githubusercontent.com/44324506/157184238-9568235e-8508-44f6-a2a6-2ed0ae4b51eb.png">
+
+<p float="left">
 <img width="380" alt="image" src="https://user-images.githubusercontent.com/44324506/157184781-ee127c41-42ac-4260-8e64-6d034e9f14b7.png">
 <img width="385" alt="image" src="https://user-images.githubusercontent.com/44324506/157184810-57c46514-86e5-453e-893f-8fab687d6ad4.png">
-
+</p>
 
 
 

@@ -19,6 +19,7 @@ Live Project : https://movia.vercel.app/
 This app is fully responsive website which uses tmdb database to fetch results, made using react.js, and tailwiwnd css. The layout changes as the screen sizes increases from 1 column grid in movile device to 2 column grid on tablets, then to 3 column grid on desktops. The layout changes from grid to flex if we encounter very big screens like 4k display.
 
 This app has implementation of infinte scroll, autosuggestion , back to top button, all using the implementation of basic react hooks.
+Note: The navbar buttons for TV and movies do not work as of now, need to add these functionalities in movia.
 
 #### Installation and Getting Started
 

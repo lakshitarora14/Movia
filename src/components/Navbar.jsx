@@ -16,6 +16,7 @@ function Navbar() {
     dispatch({ type: 'SET_AUTOCOMPLETE_DATA', payload: data })
   }
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   const debouncedAutoComplete = useCallback(debounce(autosuggest, 500), [])
 
   const handleOnChange = (e) => {

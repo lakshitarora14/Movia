@@ -7,7 +7,7 @@ import MovieContext from '../context/MovieContext'
 function Home() {
   const { dispatch, trending, page } = useContext(MovieContext)
   const [visible, setVisible] = useState(false)
-  const [loading, setLoading] = useState()
+  const [loading] = useState()
   const [hasMore, setHasMore] = useState(true)
   const observer = useRef()
   const lastMovie = useCallback(
@@ -27,6 +27,7 @@ function Home() {
         observer.current.observe(node)
       }
     },
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     [loading, hasMore]
   )
   useEffect(() => {
@@ -36,8 +37,6 @@ function Home() {
     const getData = async () => {
       const data = await getTrendingMovies(page)
       page === data.total_pages && setHasMore(false)
-      console.log('page', page)
-      console.log('trending', trending)
       dispatch({ type: 'SET_TRENDING', payload: data.results })
     }
     getData()

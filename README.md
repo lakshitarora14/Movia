@@ -1,4 +1,4 @@
-## Movie
+## Movia
 A responsive online database of information related to films, television series, made using react.js, tailwind, and TMDB custom JSON APIs
 
 Live Project : https://movia.vercel.app/

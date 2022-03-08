@@ -2,6 +2,8 @@
 A responsive online database of information related to films, television series, made using react.js, tailwind, and TMDB custom JSON APIs
 
 Live Project : https://movia.vercel.app/
+
+
 <img width="900" alt="Screenshot 2022-03-08 at 12 28 03 PM" src="https://user-images.githubusercontent.com/44324506/157183849-2590c1d7-da18-4aca-a4e6-f9c453fa6969.png">
 <img width="900" alt="Screenshot 2022-03-08 at 12 28 14 PM" src="https://user-images.githubusercontent.com/44324506/157183855-042b7c11-4301-4e52-a86c-e2366f2963a6.png">
 <img width="899" alt="Screenshot 2022-03-08 at 12 31 48 PM" src="https://user-images.githubusercontent.com/44324506/157184238-9568235e-8508-44f6-a2a6-2ed0ae4b51eb.png">
@@ -14,7 +16,7 @@ Live Project : https://movia.vercel.app/
 
 This app is fully responsive website which uses tmdb database to fetch results, made using react.js, and tailwiwnd css. The layout changes as the screen sizes increases from 1 column grid in movile device to 2 column grid on tablets, then to 3 column grid on desktops. The layout changes from grid to flex if we encounter very big screens like 4k display.
 
-This app has implementation of infinte scroll, autosuggestion using react hooks
+This app has implementation of infinte scroll, autosuggestion , back to top button, all using the implementation of basic react hooks.
 
 #### Installation and Getting Started
 

@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;400;500;600;700&display=swap');
+@layer base {
+  body {
+    @apply bg-[#1A212A] text-gray-300 font-Sora;
+  }
+}
+
+@layer components {
+  .nav-item {
+    @apply cursor-pointer transition duration-100 transform hover:scale-125 hover:text-[#A741EB];
+  }
+}

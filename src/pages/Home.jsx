@@ -40,9 +40,10 @@ function Home() {
     })
     const getData = async () => {
       const data = await getTrendingMovies(page)
-      if (page === 1) {
-        const result = []
-        data.results.slice(0, 5).forEach((i) =>
+      page === data.total_pages && setHasMore(false)
+      dispatch({ type: 'SET_TRENDING', payload: data.results })
+      const result = []
+        trending.slice(0, 5).forEach((i) =>
           result.push({
             title: i.title,
             backdropPath: i.backdrop_path,
@@ -51,11 +52,13 @@ function Home() {
           })
         )
         setImageSlider(result)
-      }
-      page === data.total_pages && setHasMore(false)
-      dispatch({ type: 'SET_TRENDING', payload: data.results })
     }
     getData()
+
+    return function () {
+
+    }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [dispatch, page, hasMore])
 
   const toggleVisible = () => {
